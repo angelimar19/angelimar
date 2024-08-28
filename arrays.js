@@ -2,7 +2,7 @@
 console.log(array[0])*/
 
 /*let datos=['angelimar', 17, 162, pizza]
-console.log(datos)*/
+console.log(datos)
 
 let array=[true, 6, 'hola']
 array.push(24)          // el push agrega el 24 como el ultimo//
@@ -18,4 +18,8 @@ console.log(array)
 
 let array=[true, 6, 'hola']
 array.shift() // igual que el pop pero borra el primer elemento o valor//
+console.log(array)
+
+let array=[true, 6, 'hola']
+array.indexOf(6)  //busca la posicion que tiene el 6 en el array, cuando no encuentra nd arroja -1//
 console.log(array)
